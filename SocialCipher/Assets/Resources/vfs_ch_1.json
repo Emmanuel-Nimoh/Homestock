@@ -1,0 +1,284 @@
+{
+  "childs": {
+    "hidden": false,
+    "readable": true,
+    "name": "/",
+    "full_path": "/",
+    "r_path": "VFS/challenge_1/",
+    "flags": "dr-xr-xr-x",
+    "user": "user",
+    "group": "group",
+    "type": "directory",
+    "childs": [
+      {
+        "hidden": false,
+        "readable": true,
+        "name": "bin",
+        "full_path": "/bin",
+        "r_path": "VFS/challenge_1/bin",
+        "flags": "dr-xr-xr-x",
+        "user": "user",
+        "group": "group",
+        "type": "directory",
+        "childs": [
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "cat",
+            "full_path": "/bin/cat",
+            "r_path": "VFS/challenge_1/bin/CatCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "cd",
+            "full_path": "/bin/cd",
+            "r_path": "VFS/challenge_1/bin/CdCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "clear",
+            "full_path": "/bin/clear",
+            "r_path": "VFS/challenge_1/bin/ClearCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "echo",
+            "full_path": "/bin/echo",
+            "r_path": "VFS/challenge_1/bin/EchoCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "exit",
+            "full_path": "/bin/exit",
+            "r_path": "VFS/challenge_1/bin/ExitCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "help",
+            "full_path": "/bin/help",
+            "r_path": "VFS/challenge_1/bin/HelpCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "ls",
+            "full_path": "/bin/ls",
+            "r_path": "VFS/challenge_1/bin/LsCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "pwd",
+            "full_path": "/bin/pwd",
+            "r_path": "VFS/challenge_1/bin/PwdCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "sort",
+            "full_path": "/bin/sort",
+            "r_path": "VFS/challenge_1/bin/SortCommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          },
+          {
+            "hidden": false,
+            "readable": false,
+            "name": "whoami",
+            "full_path": "/bin/whoami",
+            "r_path": "VFS/challenge_1/bin/WhoAmICommand",
+            "flags": "-r-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "cmd",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "hidden": false,
+        "readable": true,
+        "name": "home",
+        "full_path": "/home",
+        "r_path": "VFS/challenge_1/home",
+        "flags": "dr-xr-xr-x",
+        "user": "user",
+        "group": "group",
+        "type": "directory",
+        "childs": [
+          {
+            "hidden": false,
+            "readable": true,
+            "name": "user",
+            "full_path": "/home/user",
+            "r_path": "VFS/challenge_1/home/user",
+            "flags": "dr-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "directory",
+            "childs": [
+              {
+                "hidden": false,
+                "readable": false,
+                "name": "generate_daily_code",
+                "full_path": "/home/user/generate_daily_code",
+                "r_path": "VFS/challenge_1/home/user/generate_daily_code",
+                "flags": "-r-xr-xr-x",
+                "user": "user",
+                "group": "group",
+                "type": "cmd",
+                "content": ""
+              },
+              {
+                "hidden": false,
+                "readable": true,
+                "name": "notes.txt",
+                "full_path": "/home/user/notes.txt",
+                "r_path": "VFS/challenge_1/home/user/notes",
+                "flags": "-rw-rw-r--",
+                "user": "user",
+                "group": "group",
+                "type": "file",
+                "content": "Instructions for wh1t3_l1ly:\n - Safely <b>hide</b> the Master Password to generate daily codes somewhere on this computer (NOT THIS FOLDER PLEASE).\n - Delete this file after it's done."
+              },
+              {
+                "hidden": true,
+                "readable": true,
+                "name": ".not_here.txt",
+                "full_path": "/home/user/.not_here.txt",
+                "r_path": "VFS/challenge_1/home/user/_h_not_here",
+                "flags": "-rw-rw-r--",
+                "user": "user",
+                "group": "group",
+                "type": "file",
+                "content": "Please look for a better place to hide the Master Password ..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hidden": false,
+        "readable": true,
+        "name": "usr",
+        "full_path": "/usr",
+        "r_path": "VFS/challenge_1/usr",
+        "flags": "dr-xr-xr-x",
+        "user": "user",
+        "group": "group",
+        "type": "directory",
+        "childs": [
+          {
+            "hidden": false,
+            "readable": true,
+            "name": "bin",
+            "full_path": "/usr/bin",
+            "r_path": "VFS/challenge_1/usr/bin",
+            "flags": "dr-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "directory",
+            "childs": []
+          },
+          {
+            "hidden": false,
+            "readable": true,
+            "name": "local",
+            "full_path": "/usr/local",
+            "r_path": "VFS/challenge_1/usr/local",
+            "flags": "dr-xr-xr-x",
+            "user": "user",
+            "group": "group",
+            "type": "directory",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "hidden": true,
+        "readable": true,
+        "name": ".can_you_see_me",
+        "full_path": "/.can_you_see_me",
+        "r_path": "VFS/challenge_1/_h_can_you_see_me",
+        "flags": "dr-xr-xr-x",
+        "user": "user",
+        "group": "group",
+        "type": "directory",
+        "childs": [
+          {
+            "hidden": false,
+            "readable": true,
+            "name": "findme.txt",
+            "full_path": "/.can_you_see_me/findme.txt",
+            "r_path": "VFS/challenge_1/_h_can_you_see_me/findme",
+            "flags": "-rw-rw-r--",
+            "user": "user",
+            "group": "group",
+            "type": "file",
+            "content": "What you are looking for is the only line that appears only once in this file\nGood luck!\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nVivamus sodales eget turpis eu facilisis. In.\nMauris nibh arcu, dictum non.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nVivamus sodales eget turpis eu facilisis. In.\nWhat you are looking for is the only line that appears only once in this file\nGood luck!\nUt eget lectus aliquam, hendrerit dolor ut.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nProin ultrices dapibus orci.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nVivamus sodales eget turpis eu facilisis. In.\nNunc tristique, dolor quis pulvinar auctor, sem.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nAenean sed nunc fermentum, dictum.\nGood luck!\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nAenean sed nunc fermentum, dictum.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nNunc tristique, dolor quis pulvinar auctor, sem.\nPhasellus posuere quam diam, eu aliquam justo.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nMauris nibh arcu, dictum non.\nVivamus sodales eget turpis eu facilisis. In.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nProin ultrices dapibus orci.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris nibh arcu, dictum non.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nGood luck!\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris pretium risus eget lacus dignissim efficitur.\nNulla vel mollis lorem.\nAlea Iacta Est\nMauris nibh arcu, dictum non.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nNunc tristique, dolor quis pulvinar auctor, sem.\nNulla vel mollis lorem.\nPhasellus posuere quam diam, eu aliquam justo.\nVivamus sodales eget turpis eu facilisis. In.\nMauris pretium risus eget lacus dignissim efficitur.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nAenean sed nunc fermentum, dictum.\nNunc tristique, dolor quis pulvinar auctor, sem.\nUt eget lectus aliquam, hendrerit dolor ut.\nGood luck!\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nAenean sed nunc fermentum, dictum.\nNulla vel mollis lorem.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nPhasellus posuere quam diam, eu aliquam justo.\nPhasellus posuere quam diam, eu aliquam justo.\nMauris pretium risus eget lacus dignissim efficitur.\nVivamus sodales eget turpis eu facilisis. In.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nNunc tristique, dolor quis pulvinar auctor, sem.\nMauris nibh arcu, dictum non.\nVivamus sodales eget turpis eu facilisis. In.\nWhat you are looking for is the only line that appears only once in this file\nGood luck!\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nPhasellus posuere quam diam, eu aliquam justo.\nNulla vel mollis lorem.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nPhasellus posuere quam diam, eu aliquam justo.\nUt eget lectus aliquam, hendrerit dolor ut.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nVivamus sodales eget turpis eu facilisis. In.\nNunc tristique, dolor quis pulvinar auctor, sem.\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nNulla vel mollis lorem.\nVivamus sodales eget turpis eu facilisis. In.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris nibh arcu, dictum non.\nMauris nibh arcu, dictum non.\nNulla vel mollis lorem.\nUt eget lectus aliquam, hendrerit dolor ut.\nNunc tristique, dolor quis pulvinar auctor, sem.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nVivamus sodales eget turpis eu facilisis. In.\nVivamus sodales eget turpis eu facilisis. In.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nVivamus sodales eget turpis eu facilisis. In.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nGood luck!\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nDonec fermentum erat odio, vel.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nUt eget lectus aliquam, hendrerit dolor ut.\nNunc tristique, dolor quis pulvinar auctor, sem.\nPhasellus posuere quam diam, eu aliquam justo.\nVivamus sodales eget turpis eu facilisis. In.\nMauris pretium risus eget lacus dignissim efficitur.\nDonec fermentum erat odio, vel.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nAenean sed nunc fermentum, dictum.\nNunc tristique, dolor quis pulvinar auctor, sem.\nUt eget lectus aliquam, hendrerit dolor ut.\nGood luck!\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nAenean sed nunc fermentum, dictum.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nPhasellus posuere quam diam, eu aliquam justo.\nPhasellus posuere quam diam, eu aliquam justo.\nMauris pretium risus eget lacus dignissim efficitur.\nVivamus sodales eget turpis eu facilisis. In.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nPhasellus posuere quam diam, eu aliquam justo.\nDonec fermentum erat odio, vel.\nNulla vel mollis lorem.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris nibh arcu, dictum non.\nAenean sed nunc fermentum, dictum.\nGood luck!\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nDonec fermentum erat odio, vel.\nAenean sed nunc fermentum, dictum.\nNunc tristique, dolor quis pulvinar auctor, sem.\nMauris pretium risus eget lacus dignissim efficitur.\nMauris pretium risus eget lacus dignissim efficitur.\nNunc tristique, dolor quis pulvinar auctor, sem.\nPhasellus posuere quam diam, eu aliquam justo.\nPhasellus posuere quam diam, eu aliquam justo.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nUt eget lectus aliquam, hendrerit dolor ut.\nMauris nibh arcu, dictum non.\nMauris pretium risus eget lacus dignissim efficitur.\nWhat you are looking for is the only line that appears only once in this file\nGood luck!"
+          }
+        ]
+      },
+      {
+        "hidden": false,
+        "readable": true,
+        "name": "tmp",
+        "full_path": "/tmp",
+        "r_path": "VFS/challenge_1/_w_tmp",
+        "flags": "drwxrwxrwx",
+        "user": "user",
+        "group": "group",
+        "type": "directory",
+        "childs": []
+      }
+    ]
+  }
+}
