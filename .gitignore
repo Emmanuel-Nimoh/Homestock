@@ -70,3 +70,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Home-directory / IDE tooling (should never be committed) ---
+.vscode/extensions/
+.claude/
+.claude.json
+.codex/
+AppData/
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+desktop.ini
+**/desktop.ini
