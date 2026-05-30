@@ -1,0 +1,21 @@
+00:00:00.278146 VirtualBox NAT Network 7.2.0 r170228 win.amd64 (Aug 13 2025 21:53:30) release log
+00:00:00.278147 Log opened 2025-08-18T18:34:10.754068800Z
+00:00:00.278148 Build Type: release
+00:00:00.278150 OS Product: Windows 11
+00:00:00.278296 OS Release: 10.0.26100.4946
+00:00:00.278297 OS Service Pack: 
+00:00:00.348284 DMI Product Name: EQ
+00:00:00.351684 DMI Product Version: Default string
+00:00:00.351690 Firmware type: UEFI
+00:00:00.352041 Secure Boot: Disabled
+00:00:00.352047 Host RAM: 28594MB (27.9GB) total, 11835MB (11.5GB) available
+00:00:00.352051 Executable: C:\Program Files\Oracle\VirtualBox\VBoxNetNAT.exe
+00:00:00.352051 Process ID: 17424
+00:00:00.352052 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.352052 Windows Features:
+00:00:00.352052   Core Isolation (Memory Integrity): ENABLED
+00:00:00.352493 Transfered 2 nameservers to NAT engine.
+00:00:00.390173 SUP: Opened VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX loaded by the native ring-0 loader.
+00:00:00.390194 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
+08:14:20.495118 run: shutdown
+08:14:20.495218 Terminating
